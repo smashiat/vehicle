@@ -8,5 +8,3 @@ __pycache__/
 # Pytest cache
 .pytest_cache/
 
-# SQLite database (optional, if you don't want to push)
-*.db
