@@ -8,7 +8,7 @@ from schemas import VehicleCreate, VehicleResponse, VehicleUpdate
 
 init_db()  # ensure DB exists
 
-app = FastAPI(title="Vehicle Service (SQLite)")
+app = FastAPI(title="Vehicle Service")
 
 # ---------------- Exception Handlers ----------------
 @app.exception_handler(StarletteHTTPException)
